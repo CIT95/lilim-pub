@@ -1,0 +1,2 @@
+## Project Idea
+I would be really interested in coming up with a project or a bot that would allow people to submit a date and time within their timezone, and have it convert over to another timezone depending on what timezone they select.

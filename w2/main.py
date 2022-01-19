@@ -12,9 +12,10 @@ days_left = years_left * 365
 weeks_left = years_left * 52
 months_left = years_left * 12
 
-# mintues added to code
+
+# minutes added to code
 mins_left = years_left * 525600
 
 
-message = f"You have {days_left}days, {weeks_left}weeks, {months_left}months, and {mins_left}minutes"
+message = f"You have {days_left}days, {weeks_left}weeks, {months_left}months,and {mins_left}minutes"
 print(message)
