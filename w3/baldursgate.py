@@ -37,7 +37,7 @@ question1 = input('What is your weapon? Type "Sword" or "Wand":').lower()
 if question1 == "sword":
     print("You excel with your strength, and brandish a regal longsword."
           "The dragon awaits your first move.")
-    choice2 = input('The dragon reaches her head down towards you,tempting'
+    choice2 = input('The dragon reaches her head down towards you, tempting'
                     'you to strike it. Type "Strike" '
                     'to hit it or "Wait": ').lower()
     if choice2 == "strike":
