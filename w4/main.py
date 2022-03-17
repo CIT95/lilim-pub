@@ -12,7 +12,7 @@ if decision1 >= 3 or decision1 < 0:
     print("You have typed in a invalid option")
 else:
     print(f"You are going to the:{location[decision1]}")
-
+ 
 
 # 2nd user input to continue the process of today's objective
     clothes = int(input('Have you made yourself look presentable today?'
