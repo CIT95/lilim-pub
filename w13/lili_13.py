@@ -21,7 +21,7 @@ for racer in range(0, 5):
     new_turtle.pendown()
     all_turtles.append(new_turtle)
 
-
+# Added new functions that will allow the turtle to change angles
 def turn_left():
     new_heading = turtle.heading() + rand_ds
     turtle.setheading(new_heading)
