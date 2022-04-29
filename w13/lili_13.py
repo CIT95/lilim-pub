@@ -22,6 +22,8 @@ for racer in range(0, 5):
     all_turtles.append(new_turtle)
 
 # Added new functions that will allow the turtle to change angles
+
+
 def turn_left():
     new_heading = turtle.heading() + rand_ds
     turtle.setheading(new_heading)
@@ -45,7 +47,7 @@ while is_race_on:
             else:
                 print(f"You've lost! The {winning_color}turtle is the winner!")
         rand_ds = random.randint(0, 100)
-# Have the turtles go in random distance in ziglag line. 
+# Have the turtles go in random distance in ziglag line.
         turtle.fd(rand_ds)
         turn_right()
         turtle.fd(rand_ds)
